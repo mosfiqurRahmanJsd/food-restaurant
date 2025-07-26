@@ -148,6 +148,7 @@ body {
     height: 557px;
     display: flex;
     align-items: center;
+    margin-bottom: 139px;
 }
 
 .about-content {
@@ -159,48 +160,67 @@ body {
     width: 100%;
 }
 
-.about-content h2 {
+.social-title {
     color: rgb(16, 16, 16);
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
+    line-height: 54px;
 }
 
-.about-content p {
+.social-subtitle {
     color: rgba(16, 16, 16, 0.600);
     font-size: 20px;
     font-weight: 500; 
     margin-bottom: 48px;
 }
 
-.about-content h3 {
+.social-follow {
     color: rgba(16, 16, 16, 0.700);
     font-size: 27px;
     font-weight: 600;
 }
 
-.about-content ul {
+.social-icon {
     margin-top: 32px;
 }
 
-.about-content ul li {
+.social-icon li {
     display: inline;
+    margin: 0 14px;
 }
 
-.about-content ul li a {
+.social-icon li a {
     text-decoration: none;
-    font-size: 42px;
+    font-size: 35px;
 }
 
-.about-content ul li a .fa-facebook {
+.fa-facebook {
     color: #0095FF;
 }
-.about-content ul li a .fa-x-twitter {
+.fa-x-twitter {
     color: #000000;
 }
-.about-content ul li a .fa-instagram {
+.fa-instagram {
     color: #F8787D;
 }
-.about-content ul li a .fa-pinterest {
+.fa-pinterest {
     color: #EA3E2C;
+}
+
+
+#social {
+    background-image: url('./../assets/social-bg.png');
+    background-repeat: no-repeat;
+    height: 557px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-content {
+    width: 1096px;
+    text-align: center;
 }
