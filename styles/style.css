@@ -142,3 +142,65 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
+
+
+.about-us {
+    height: 557px;
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    width: 50%;
+    text-align: center;
+}
+
+.about-content img {
+    width: 100%;
+}
+
+.about-content h2 {
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.about-content p {
+    color: rgba(16, 16, 16, 0.600);
+    font-size: 20px;
+    font-weight: 500; 
+    margin-bottom: 48px;
+}
+
+.about-content h3 {
+    color: rgba(16, 16, 16, 0.700);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.about-content ul {
+    margin-top: 32px;
+}
+
+.about-content ul li {
+    display: inline;
+}
+
+.about-content ul li a {
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.about-content ul li a .fa-facebook {
+    color: #0095FF;
+}
+.about-content ul li a .fa-x-twitter {
+    color: #000000;
+}
+.about-content ul li a .fa-instagram {
+    color: #F8787D;
+}
+.about-content ul li a .fa-pinterest {
+    color: #EA3E2C;
+}
